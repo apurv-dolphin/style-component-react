@@ -9,6 +9,8 @@ export default function Form() {
   });
   const [btn, setBtn] = useState(false);
 
+//style component
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setUserData({
